@@ -1,6 +1,6 @@
 # Image Insight
 
-## 프로젝트 개요
+## 프로젝트 개요 - 202134718 나원빈
 
 **Image Insight**는 이미지를 입력받아 이미지 속 사물을 탐지(OpenCV)하고, 이를 기반으로 Huggingface의 Vision-Language 모델(VIT-GPT2)을 사용해 사물에 대한 설명을 생성하는 오픈소스 프로그램입니다.
 
@@ -18,8 +18,7 @@
 
 - **Huggingface Transformers**: 4.33.3  
 - **OpenCV**: 4.8.0  
-- **PyTorch**: 2.1.0  
-- **Matplotlib**: 3.7.1  
+
 
 ### 설치 명령
 
