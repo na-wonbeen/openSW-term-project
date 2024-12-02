@@ -1,1 +1,1 @@
-### 202134718 나원빈 openSW term=project
+### 202134718 나원빈 openSW term-project
