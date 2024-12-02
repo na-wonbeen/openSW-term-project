@@ -9,13 +9,7 @@
 2. Huggingface Transformers 기반 텍스트 설명 생성.
 3. 분석 결과를 출력하여 이미지의 의미를 자동으로 해석.
 
-
----
-
 ## 사용한 패키지 및 버전
-
-이 프로젝트에서 사용된 주요 패키지는 다음과 같습니다:
-
 - **Huggingface Transformers**: 4.33.3  
 - **OpenCV**: 4.8.0  
 
