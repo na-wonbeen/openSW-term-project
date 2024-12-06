@@ -26,5 +26,6 @@ Zero-shot classification allows the model to predict new classes without additio
 The following packages are required for this project.
   - Transformers 4.46.2
   - Pillow 11.0.0
+
 To install them, use the command:  
 `pip install -r requirements.txt`.
