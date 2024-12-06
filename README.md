@@ -28,5 +28,3 @@ The following packages are required for this project.
   - Pillow 11.0.0
 To install them, use the command:  
 `pip install -r requirements.txt`.
-
-### `requirements.txt`
