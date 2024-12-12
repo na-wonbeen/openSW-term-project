@@ -84,10 +84,7 @@ pip install -r requirements.txt
 
 ## 데모 이미지 및 영상
 프로젝트 실행 후 분석된 이미지를 아래와 같이 확인할 수 있습니다. 실행 예시 이미지는 다음과 같습니다.
-https://kr.freepik.com/
-[분석된 이미지]([images/sample_output.jpg](https://kr.freepik.com/free-photo/asian-man-face-mask-mockup_15558455.htm#fromView=keyword&page=1&position=0&uuid=284078be-7e59-4ecc-8871-60e164688444))
-[분석된 이미지] https://kr.freepik.com/free-photo/asian-man-face-mask_15475120.htm#fromView=keyword&page=1&position=1&uuid=284078be-7e59-4ecc-8871-60e164688444
-[분석된 이미지] https://kr.freepik.com/free-photo/young-japanese-woman-wearing-mask_12707415.htm#fromView=keyword&page=1&position=4&uuid=4230e02c-d235-4df3-8771-302a50a2bb4d
+![image](https://github.com/user-attachments/assets/0aba41f2-deaa-4a04-ab87-2ecdd8e9c3ad)
 
 - 사용한 패키지와 버전
 
@@ -99,12 +96,18 @@ https://kr.freepik.com/
 ```bash
 pip install -r requirements.txt
 
+0. 프로젝트 폴더로 이동:
+cd C:\Users\ghwjd\face-mask-detection
+
+2. 필요한 패키지 설치:
+pip install -r requirements.txt
+
+3. 이미지 분석 실행:
+python main.py --image C:\Users\ghwjd\face-mask-detection\src\train_data\with_mask\image_name.jpg
+
 - 이미지 분석 실행
 프로젝트의 주요 Python 파일을 실행하여 이미지 분석을 시작합니다. main.py 파일을 실행하여 입력한 이미지를 분석할 수 있습니다:
-
-bash
-코드 복사
-python main.py --image path_to_your_image.jpg
+<python main.py --image path_to_your_image.jpg>
 
 
 - 참고 자료
@@ -112,3 +115,7 @@ python main.py --image path_to_your_image.jpg
 - [OpenCV 공식 문서](https://opencv.org/)
 - [TensorFlow/Keras 공식 문서](https://www.tensorflow.org/learn)
 - [GitHub에 업로드된 다른 프로젝트 예시](https://github.com/hojung025/mask-detection)
+- https://kr.freepik.com/
+- [분석된 이미지]([images/sample_output.jpg](https://kr.freepik.com/free-photo/asian-man-face-mask-mockup_15558455.htm#fromView=keyword&page=1&position=0&uuid=284078be-7e59-4ecc-8871-60e164688444))
+- [분석된 이미지] https://kr.freepik.com/free-photo/asian-man-face-mask_15475120.htm#fromView=keyword&page=1&position=1&uuid=284078be-7e59-4ecc-8871-60e164688444
+- [분석된 이미지] https://kr.freepik.com/free-photo/young-japanese-woman-wearing-mask_12707415.htm#fromView=keyword&page=1&position=4&uuid=4230e02c-d235-4df3-8771-302a50a2bb4d
