@@ -1,4 +1,4 @@
-# 오픈소스 SW 텀 프로젝트
+# 오픈소스 SW 텀 프로젝트 (Team: 50)
 
 ## 201835502 이지민
 
@@ -30,7 +30,7 @@
       $ npm start
   ```
 
-  **⚠️ OpenWeathermap의 API키는 따로 제공하지 않으니 따로 준비하셔야 합니다!**
+  **⚠️ OpenWeathermap의 API키는 따로 제공하지 않으니 따로 준비하셔서 사용하시기 바랍니다.**
 
     <br />
 
@@ -39,4 +39,29 @@
   - [React Documentation](https://reactjs.org/docs/getting-started.html)
   - [Ant Design Documentation](https://ant.design/docs/react/introduce)
   - [dotenv Documentation](https://www.npmjs.com/package/dotenv)
-    > > > > > > > 562245f (메인 브렌치 README.md 파일 수정)
+  - [리액트에서 API 키를 숨기는 방법](https://kybeen.tistory.com/104)
+
+## 202134718 나원빈
+
+- 프로젝트 개요
+- 데모 이미지 및 영상
+- 사용한 패키지와 버전
+- 실행 방법
+- 참고 자료
+
+## 이현서
+
+- 프로젝트 개요
+- 데모 이미지 및 영상
+- 사용한 패키지와 버전
+- 실행 방법
+- 참고 자료
+
+## 이호정
+
+- 프로젝트 개요
+- 데모 이미지 및 영상
+- 사용한 패키지와 버전
+- 실행 방법
+- 참고 자료
+  > > > > > > > 6c5c77d (README.md 형식 제작 완료)
