@@ -84,7 +84,8 @@ pip install -r requirements.txt
 
 ## 데모 이미지 및 영상
 프로젝트 실행 후 분석된 이미지를 아래와 같이 확인할 수 있습니다. 실행 예시 이미지는 다음과 같습니다.
-![image](https://github.com/user-attachments/assets/0aba41f2-deaa-4a04-ab87-2ecdd8e9c3ad)
+![Example Image](https://github.com/hojung025/face-mask-detection/raw/main/images/image_01.png)
+
 
 - 사용한 패키지와 버전
 
