@@ -4,8 +4,6 @@ import 'antd/dist/reset.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Content } from 'antd/es/layout/layout';
-import ContentBox from './Layout/ContentBox';
 import Container from './Layout/Container';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

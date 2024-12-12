@@ -1,20 +1,27 @@
 import React from 'react';
+import { Row, Col } from 'antd';
 import ContentBox from './ContentBox';
 
-const contentDatas = [
-  { id: 1, title: 'Box 1', content: 'This is the content of Box 1.' },
-  { id: 2, title: 'Box 2', content: 'This is the content of Box 2.' },
-  { id: 3, title: 'Box 3', content: 'This is the content of Box 3.' },
-  { id: 4, title: 'Box 4', content: 'This is the content of Box 4.' },
+const cities = [
+  { id: 1, city: 'Seoul' },
+  { id: 2, city: 'Tokyo' },
+  { id: 3, city: 'New York' },
+  { id: 4, city: 'Beijing' },
+  { id: 5, city: 'London' },
+  { id: 6, city: 'Sydney' },
 ];
 
-function Container(props) {
+function Container() {
   return (
-    <>
-      {contentDatas.map((data) => (
-        <ContentBox key={data.id} title={data.title} content={data.content} />
-      ))}
-    </>
+    <div style={{ padding: '20px' }}>
+      <Row gutter={[16, 16]}>
+        {cities.map((data) => (
+          <Col key={data.id} xs={12} sm={12} md={8} lg={8}>
+            <ContentBox city={data.city} />
+          </Col>
+        ))}
+      </Row>
+    </div>
   );
 }
 
