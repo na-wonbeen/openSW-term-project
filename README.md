@@ -67,8 +67,7 @@ pip install -r requirements.txt
 입력 이미지 경로를 지정하여 분석을 실행합니다.
 python main.py --image images/input_example.jpg
 결과는 터미널에 출력됩니다.
-- 참고 자료
-- # Image Insight
+
 
 
 
